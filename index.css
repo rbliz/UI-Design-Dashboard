@@ -10,8 +10,6 @@ html, body {
 }
 
 body {
-    /* background: #3b4acd; */
-    
     color: #A5B2D3;
     padding: .5em;
     font-family: serif;
@@ -20,8 +18,7 @@ body {
 }
 #logo-el{
     border-bottom: 6px dotted #e5989b;
- 
-}
+ }
 svg#menu-btn:hover{
     border-bottom: 6px dotted #e5989b;
 }
@@ -39,18 +36,14 @@ header svg {
 a {
     color: white;
 }
-
-
 ul {
     list-style: none;
     padding: 0;
 }
-
 a.logo {
     font-weight: bold;
     margin: 0 1em;
 }
-
 a.cta-btn {
     margin-left: auto;
     background: #00b4d8;
@@ -63,7 +56,6 @@ a.cta-btn {
 }
 
 /* Navigation */
-
 
 nav {
     position: fixed;
@@ -78,8 +70,6 @@ nav {
     transition: all .3s;
     text-align: center;
 }
-
-
 nav p {
     margin-bottom: 0;
 }
@@ -88,13 +78,11 @@ nav svg {
     cursor: pointer;
     width: 1em;
 }
-
 nav ul li a {
     display: block;
     padding: .2em;
     font-size: 1.8em;
 }
-
 .selected {
     background: #e5989b;
 }
@@ -104,15 +92,14 @@ nav ul li a {
     opacity: 1;
     transform: translateX(0);
 }
-
 .author{
     margin-top: 150px;
     
     text-align: center;
     font-size: .85em;
 }
-/* Main Section */
 
+/* Main Section */
 
 h1 {
     color: white;
@@ -158,8 +145,7 @@ main {
     border: 1px solid white;
 }
 
-
-/* Your Fixes Below */
+/*Fixes Below */
 
 body {
     background: #303A52;
@@ -269,7 +255,6 @@ nav {
         width: 30%;
     }
    
-    
 }
 
 @media (min-width: 850px) {
@@ -315,21 +300,6 @@ nav {
 }
 
 
- /*
-
-- White Space
-- Color 
-- Contrast 
-- Scale
-- Alignment
-- Typography
-- Visual Hierarchy
-
-*/
-
-
-
-/* Ignore this -- for displaying the viewport width */
 .width-container {
     display: none;
 }
